@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>form</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<style>
+.form-input {
+ background: #EFF0F6; 
+ border: none;
+ height: 5vh;
+ width: 100%;
+ padding: 5px 15px;
+ margin: 10px 0;
+}
+.table-form-input{
+background: #EFF0F6; 
+ border: none;
+ height: 5vh;
+ width: 20%;
+ padding: 5px 15px;
+ margin: 10px 0;
+}
+.primary-color{
+	color: #262626
+}
+.secondary-color{
+	color: #696871;
+}
+table, tr, th {
+	text-align: left;
+}
+</style>
+<body style="padding: 10px">
+
+<h2>MRI Technical Assessment Skills Checklist</h2>
+
+<form id="skillChecklistForm">
+	<div style="display: flex;">
+		<div style="padding: 10px;">
+			 <label style="color: #696871;" for="fname">First name</label>
+       <input class="form-input" type="text" name="fname" style="width:80%"><br>
+		</div>
+ 
+<div style="padding: 10px;">
+	 <label style="color: #696871;" for="fname">Last name</label>
+   <input class="form-input" type="text" name="lname" style="width:80%"><br>
+</div>
+ 
+<div style="padding: 10px;">
+	  <label style="color: #696871;" for="fname">Date</label>
+    <input class="form-input" type="text" name="cdate" style="width:80%"><br>
+</div>
+  
+</div>
+
+<!-- <div style="padding: 10px;">
+	<label for="fname" class="primary-color">Total years in telemetry unit</label><br>
+  <input class="form-input" type="text" name="telemetry" ><br>
+</div> -->
+
+
+<div style="padding: 10px;">
+	  <label for="fname" class="primary-color">Last 4 of SSN</label><br>
+  <input class="form-input" type="text" name="ssn" ><br>
+</div>
+
+<div style="padding: 10px;">
+	  <p style="font-size: 16px;"><strong>Instructions:</strong> This checklist is meant to serve as a general guideline for our client facilities as to the level of your skills within your nursing specialty. Please use the scale below to describe your experience/expertise in each area listed below.</p>
+</div>
+
+<div style="display: flex;">
+	<div style="padding: 10px;">
+		<p>
+			Proficiency Scale:
+		</p>
+	</div>
+	<div style="padding: 10px;">
+		<p>1	= No Experience</p>
+		<p>2	= Need Training</p>
+		<p>3	= Able to perform with supervision</p>
+		<p>4	= Able to perform independently</p>
+	</div>
+</div>
+
+<div>
+	<p class="primary-color" style="border-bottom: 1px solid #696871;">Please check the box (es) below for each group for which you have provided safe and age appropriate care </p>
+	</div>
+
+	<div>
+		<table style="width:100%">
+  <tr>
+    <th>questions</th>
+    <th>Answer</th>
+  </tr>
+  <tr>
+    <td class="secondary-color">Newborn/Neonatal ( birth-30days) </td>
+    <td><input type="checkbox" name="q1" value="infant"><br></td>
+    
+  </tr>
+
+  <tr>
+    <td class="secondary-color">Infant (30 days-1 year)  </td>
+     <td><input type="checkbox" name="q1" value="toddler"><br></td>
+  </tr>
+
+  <tr>
+    <td class="secondary-color">Toddler (1-3 years) </td>
+     <td><input type="checkbox" name="q1" value="preschool"><br></td>
+  </tr>
+
+  <tr>
+    <td class="secondary-color">Preschooler (3-5 years) </td>
+     <td><input type="checkbox" name="q1" value="preschool"><br></td>
+  </tr>
+  <tr>
+    <td class="secondary-color">School age children (5-12 years) </td>
+     <td><input type="checkbox" name="q1" value="preschool"><br></td>
+  </tr>
+  <tr>
+    <td class="secondary-color">Adolescents (12-18 years) </td>
+     <td><input type="checkbox" name="q1" value="preschool"><br></td>
+  </tr>
+  <tr>
+    <td class="secondary-color">Young adults (18-39 years) </td>
+     <td><input type="checkbox" name="q1" value="preschool"><br></td>
+  </tr>
+  <tr>
+    <td class="secondary-color">Middle adults (39-64 years) </td>
+     <td><input type="checkbox" name="q1" value="preschool"><br></td>
+  </tr>
+  <tr>
+    <td class="secondary-color">Older adults (64+ years) </td>
+     <td><input type="checkbox" name="q1" value="preschool"><br></td>
+  </tr>
+  
+</table>
+	</div>
+
+
+<div>
+	<p class="primary-color" style="border-bottom: 1px solid #696871;">CIRCULATING ROLE (PAV) </p>
+	</div>
+
+	<div>
+		<table style="width:100%">
+  <tr>
+    <th>questions</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+  </tr>
+  <tr>
+    <td>Air Way Maintenance </td>
+    <td><input type="radio" name="q2" value="1"></td>
+    <td><input type="radio" name="q2" value="2"></td>
+    <td><input type="radio" name="q2" value="3"></td>
+    <td><input type="radio" name="q2" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>Arm Cases</td>
+    <td><input type="radio" name="q3" value="1"></td>
+    <td><input type="radio" name="q3" value="2"></td>
+    <td><input type="radio" name="q3" value="3"></td>
+    <td><input type="radio" name="q3" value="4"></td>
+  </tr>
+
+   <tr>
+    <td>Biopsy</td>
+    <td><input type="radio" name="q4" value="1"></td>
+    <td><input type="radio" name="q4" value="2"></td>
+    <td><input type="radio" name="q4" value="3"></td>
+    <td><input type="radio" name="q4" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>Co-Ox Setup Q.C., Run Sample</td>
+    <td><input type="radio" name="q5" value="1"></td>
+    <td><input type="radio" name="q5" value="2"></td>
+    <td><input type="radio" name="q5" value="3"></td>
+    <td><input type="radio" name="q5" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>DCA’s</td>
+    <td><input type="radio" name="q6" value="1"></td>
+    <td><input type="radio" name="q6" value="2"></td>
+    <td><input type="radio" name="q6" value="3"></td>
+    <td><input type="radio" name="q6" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>Defibrillator Setup/Use</td>
+    <td><input type="radio" name="q7" value="1"></td>
+    <td><input type="radio" name="q7" value="2"></td>
+    <td><input type="radio" name="q7" value="3"></td>
+    <td><input type="radio" name="q7" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>IABP</td>
+    <td><input type="radio" name="q8" value="1"></td>
+    <td><input type="radio" name="q8" value="2"></td>
+    <td><input type="radio" name="q8" value="3"></td>
+    <td><input type="radio" name="q8" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>Le heart</td>
+    <td><input type="radio" name="q9" value="1"></td>
+    <td><input type="radio" name="q9" value="2"></td>
+    <td><input type="radio" name="q9" value="3"></td>
+    <td><input type="radio" name="q9" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>RA Pressure Waveform Recognition</td>
+    <td><input type="radio" name="q10" value="1"></td>
+    <td><input type="radio" name="q10" value="2"></td>
+    <td><input type="radio" name="q10" value="3"></td>
+    <td><input type="radio" name="q10" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>RV Pressure Waveform Recognition</td>
+    <td><input type="radio" name="q11" value="1"></td>
+    <td><input type="radio" name="q11" value="2"></td>
+    <td><input type="radio" name="q11" value="3"></td>
+    <td><input type="radio" name="q11" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>PA Pressure Waveform Recognition</td>
+    <td><input type="radio" name="q12" value="1"></td>
+    <td><input type="radio" name="q12" value="2"></td>
+    <td><input type="radio" name="q12" value="3"></td>
+    <td><input type="radio" name="q12" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>PCW Pressure Waveform Recognition</td>
+    <td><input type="radio" name="q13" value="1"></td>
+    <td><input type="radio" name="q13" value="2"></td>
+    <td><input type="radio" name="q13" value="3"></td>
+    <td><input type="radio" name="q13" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>LVEDP</td>
+    <td><input type="radio" name="q14" value="1"></td>
+    <td><input type="radio" name="q14" value="2"></td>
+    <td><input type="radio" name="q14" value="3"></td>
+    <td><input type="radio" name="q14" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>Ejection Fraction</td>
+    <td><input type="radio" name="q15" value="1"></td>
+    <td><input type="radio" name="q15" value="2"></td>
+    <td><input type="radio" name="q15" value="3"></td>
+    <td><input type="radio" name="q15" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>Power Injector Setup/Use</td>
+    <td><input type="radio" name="q16" value="1"></td>
+    <td><input type="radio" name="q16" value="2"></td>
+    <td><input type="radio" name="q16" value="3"></td>
+    <td><input type="radio" name="q16" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>PTCA’s</td>
+    <td><input type="radio" name="q17" value="1"></td>
+    <td><input type="radio" name="q17" value="2"></td>
+    <td><input type="radio" name="q17" value="3"></td>
+    <td><input type="radio" name="q17" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>Psycho/Social</td>
+    <td><input type="radio" name="q18" value="1"></td>
+    <td><input type="radio" name="q18" value="2"></td>
+    <td><input type="radio" name="q18" value="3"></td>
+    <td><input type="radio" name="q18" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>Patient/Family Teaching</td>
+    <td><input type="radio" name="q19" value="1"></td>
+    <td><input type="radio" name="q19" value="2"></td>
+    <td><input type="radio" name="q19" value="3"></td>
+    <td><input type="radio" name="q19" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>Patient/Fam Teach Pre/Post Proced</td>
+    <td><input type="radio" name="q20" value="1"></td>
+    <td><input type="radio" name="q20" value="2"></td>
+    <td><input type="radio" name="q20" value="3"></td>
+    <td><input type="radio" name="q20" value="4"></td>
+  </tr>
+
+</table>
+	</div>
+
+	<div>
+	<p class="primary-color" style="border-bottom: 1px solid #696871;">CIRCULATING ROLE (PAV) </p>
+	</div>
+
+	<div>
+		<table style="width:100%">
+  <tr>
+    <th>questions</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+  </tr>
+  <tr>
+    <td>Le Heart Catheterization </td>
+    <td><input type="radio" name="q21" value="1"></td>
+    <td><input type="radio" name="q21" value="2"></td>
+    <td><input type="radio" name="q21" value="3"></td>
+    <td><input type="radio" name="q21" value="4"></td>
+  </tr>
+
+  <tr>
+    <td>Right Heart Catheterization  </td>
+    <td><input type="radio" name="q22" value="1"></td>
+    <td><input type="radio" name="q22" value="2"></td>
+    <td><input type="radio" name="q22" value="3"></td>
+    <td><input type="radio" name="q22" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Le & Right Heart Catheterization  </td>
+    <td><input type="radio" name="q23" value="1"></td>
+    <td><input type="radio" name="q23" value="2"></td>
+    <td><input type="radio" name="q23" value="3"></td>
+    <td><input type="radio" name="q23" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> PTCA  </td>
+    <td><input type="radio" name="q24" value="1"></td>
+    <td><input type="radio" name="q24" value="2"></td>
+    <td><input type="radio" name="q24" value="3"></td>
+    <td><input type="radio" name="q24" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Stent Implantation  </td>
+    <td><input type="radio" name="q25" value="1"></td>
+    <td><input type="radio" name="q25" value="2"></td>
+    <td><input type="radio" name="q25" value="3"></td>
+    <td><input type="radio" name="q25" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Ventricular Pacers  </td>
+    <td><input type="radio" name="q26" value="1"></td>
+    <td><input type="radio" name="q26" value="2"></td>
+    <td><input type="radio" name="q26" value="3"></td>
+    <td><input type="radio" name="q26" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Push Drugs ordered by MD  </td>
+    <td><input type="radio" name="q27" value="1"></td>
+    <td><input type="radio" name="q27" value="2"></td>
+    <td><input type="radio" name="q27" value="3"></td>
+    <td><input type="radio" name="q27" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Radiation Protection  </td>
+    <td><input type="radio" name="q28" value="1"></td>
+    <td><input type="radio" name="q28" value="2"></td>
+    <td><input type="radio" name="q28" value="3"></td>
+    <td><input type="radio" name="q28" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Directional Coronary Atherectomy  </td>
+    <td><input type="radio" name="q29" value="1"></td>
+    <td><input type="radio" name="q29" value="2"></td>
+    <td><input type="radio" name="q29" value="3"></td>
+    <td><input type="radio" name="q29" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Permanent Pacemaker  </td>
+    <td><input type="radio" name="q30" value="1"></td>
+    <td><input type="radio" name="q30" value="2"></td>
+    <td><input type="radio" name="q30" value="3"></td>
+    <td><input type="radio" name="q30" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Temporary Pacemaker  </td>
+    <td><input type="radio" name="q31" value="1"></td>
+    <td><input type="radio" name="q31" value="2"></td>
+    <td><input type="radio" name="q31" value="3"></td>
+    <td><input type="radio" name="q31" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Seng Threshold of Pacemakers  </td>
+    <td><input type="radio" name="q32" value="1"></td>
+    <td><input type="radio" name="q32" value="2"></td>
+    <td><input type="radio" name="q32" value="3"></td>
+    <td><input type="radio" name="q32" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Rotoblator  </td>
+    <td><input type="radio" name="q33" value="1"></td>
+    <td><input type="radio" name="q33" value="2"></td>
+    <td><input type="radio" name="q33" value="3"></td>
+    <td><input type="radio" name="q33" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Sphygmomanometer Monitoring  </td>
+    <td><input type="radio" name="q34" value="1"></td>
+    <td><input type="radio" name="q34" value="2"></td>
+    <td><input type="radio" name="q34" value="3"></td>
+    <td><input type="radio" name="q34" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Stents  </td>
+    <td><input type="radio" name="q35" value="1"></td>
+    <td><input type="radio" name="q35" value="2"></td>
+    <td><input type="radio" name="q35" value="3"></td>
+    <td><input type="radio" name="q35" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Transducer Setup/Calibration  </td>
+    <td><input type="radio" name="q36" value="1"></td>
+    <td><input type="radio" name="q36" value="2"></td>
+    <td><input type="radio" name="q36" value="3"></td>
+    <td><input type="radio" name="q36" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Run Co-Ox Machine  </td>
+    <td><input type="radio" name="q37" value="1"></td>
+    <td><input type="radio" name="q37" value="2"></td>
+    <td><input type="radio" name="q37" value="3"></td>
+    <td><input type="radio" name="q37" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> Run Angio Jet Machine  </td>
+    <td><input type="radio" name="q38" value="1"></td>
+    <td><input type="radio" name="q38" value="2"></td>
+    <td><input type="radio" name="q38" value="3"></td>
+    <td><input type="radio" name="q38" value="4"></td>
+  </tr>
+
+  <tr>
+    <td> IVUS  </td>
+    <td><input type="radio" name="q39" value="1"></td>
+    <td><input type="radio" name="q39" value="2"></td>
+    <td><input type="radio" name="q39" value="3"></td>
+    <td><input type="radio" name="q39" value="4"></td>
+  </tr>
+  
+</table>
+	</div>
+
+</table>
+</div>
+
+<div>
+<p class="primary-color" style="border-bottom: 1px solid #696871;">RECORDING POSITION </p>
+</div>
+
+<div>
+  <table style="width:100%">
+<tr>
+  <th>questions</th>
+  <th>1</th>
+  <th>2</th>
+  <th>3</th>
+  <th>4</th>
+</tr>
+<tr>
+  <td> Biopsy  </td>
+  <td><input type="radio" name="q40" value="1"></td>
+  <td><input type="radio" name="q40" value="2"></td>
+  <td><input type="radio" name="q40" value="3"></td>
+  <td><input type="radio" name="q40" value="4"></td>
+</tr>
+<tr>
+  <td> Call in Reports  </td>
+  <td><input type="radio" name="q41" value="1"></td>
+  <td><input type="radio" name="q41" value="2"></td>
+  <td><input type="radio" name="q41" value="3"></td>
+  <td><input type="radio" name="q41" value="4"></td>
+</tr>
+<tr>
+  <td> DCA’s  </td>
+  <td><input type="radio" name="q42" value="1"></td>
+  <td><input type="radio" name="q42" value="2"></td>
+  <td><input type="radio" name="q42" value="3"></td>
+  <td><input type="radio" name="q42" value="4"></td>
+</tr>
+<tr>
+  <td> PTCA’s  </td>
+  <td><input type="radio" name="q43" value="1"></td>
+  <td><input type="radio" name="q43" value="2"></td>
+  <td><input type="radio" name="q43" value="3"></td>
+  <td><input type="radio" name="q43" value="4"></td>
+</tr>
+<tr>
+  <td> Le Heart Caths  </td>
+  <td><input type="radio" name="q44" value="1"></td>
+  <td><input type="radio" name="q44" value="2"></td>
+  <td><input type="radio" name="q44" value="3"></td>
+  <td><input type="radio" name="q44" value="4"></td>
+</tr>
+<tr>
+  <td> Right Heart Caths  </td>
+  <td><input type="radio" name="q45" value="1"></td>
+  <td><input type="radio" name="q45" value="2"></td>
+  <td><input type="radio" name="q45" value="3"></td>
+  <td><input type="radio" name="q45" value="4"></td>
+</tr>
+<tr>
+  <td> Stents  </td>
+  <td><input type="radio" name="q46" value="1"></td>
+  <td><input type="radio" name="q46" value="2"></td>
+  <td><input type="radio" name="q46" value="3"></td>
+  <td><input type="radio" name="q46" value="4"></td>
+</tr>
+<tr>
+  <td> Hematoma Recognition & Mgt  </td>
+  <td><input type="radio" name="q47" value="1"></td>
+  <td><input type="radio" name="q47" value="2"></td>
+  <td><input type="radio" name="q47" value="3"></td>
+  <td><input type="radio" name="q47" value="4"></td>
+</tr>
+<tr>
+  <td> Rotational Coronary Atherectomy  </td>
+  <td><input type="radio" name="q48" value="1"></td>
+  <td><input type="radio" name="q48" value="2"></td>
+  <td><input type="radio" name="q48" value="3"></td>
+  <td><input type="radio" name="q48" value="4"></td>
+</tr>
+<tr>
+  <td> IVUS  </td>
+  <td><input type="radio" name="q49" value="1"></td>
+  <td><input type="radio" name="q49" value="2"></td>
+  <td><input type="radio" name="q49" value="3"></td>
+  <td><input type="radio" name="q49" value="4"></td>
+</tr>
+<tr>
+  <td> Intra-Aortic Balloon Pump  </td>
+  <td><input type="radio" name="q50" value="1"></td>
+  <td><input type="radio" name="q50" value="2"></td>
+  <td><input type="radio" name="q50" value="3"></td>
+  <td><input type="radio" name="q50" value="4"></td>
+</tr>
+<tr>
+  <td> Directional Coronary Atherectomy  </td>
+  <td><input type="radio" name="q51" value="1"></td>
+  <td><input type="radio" name="q51" value="2"></td>
+  <td><input type="radio" name="q51" value="3"></td>
+  <td><input type="radio" name="q51" value="4"></td>
+</tr>
+<tr>
+  <td> EP Study  </td>
+  <td><input type="radio" name="q52" value="1"></td>
+  <td><input type="radio" name="q52" value="2"></td>
+  <td><input type="radio" name="q52" value="3"></td>
+  <td><input type="radio" name="q52" value="4"></td>
+</tr>
+<tr>
+  <td> Ablation  </td>
+  <td><input type="radio" name="q53" value="1"></td>
+  <td><input type="radio" name="q53" value="2"></td>
+  <td><input type="radio" name="q53" value="3"></td>
+  <td><input type="radio" name="q53" value="4"></td>
+</tr>
+<tr>
+  <td> Cardioversion  </td>
+  <td><input type="radio" name="q54" value="1"></td>
+  <td><input type="radio" name="q54" value="2"></td>
+  <td><input type="radio" name="q54" value="3"></td>
+  <td><input type="radio" name="q54" value="4"></td>
+</tr>
+<tr>
+  <td> Rotoblator  </td>
+  <td><input type="radio" name="q55" value="1"></td>
+  <td><input type="radio" name="q55" value="2"></td>
+  <td><input type="radio" name="q55" value="3"></td>
+  <td><input type="radio" name="q55" value="4"></td>
+</tr>
+</table>
+</div>
+
+<div>
+  <p class="primary-color" style="border-bottom: 1px solid #696871;">SCRUB POSITION (PSC) </p>
+  </div>
+  
+  <div>
+    <table style="width:100%">
+  <tr>
+    <th>questions</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+  </tr>
+  <tr>
+    <td> Le Heart Catheterization  </td>
+    <td><input type="radio" name="q56" value="1"></td>
+    <td><input type="radio" name="q56" value="2"></td>
+    <td><input type="radio" name="q56" value="3"></td>
+    <td><input type="radio" name="q56" value="4"></td>
+  </tr>
+  <tr>
+    <td> Right Heart Catheterization  </td>
+    <td><input type="radio" name="q57" value="1"></td>
+    <td><input type="radio" name="q57" value="2"></td>
+    <td><input type="radio" name="q57" value="3"></td>
+    <td><input type="radio" name="q57" value="4"></td>
+  </tr>
+  <tr>
+    <td> Le & Right Heart Catheterization  </td>
+    <td><input type="radio" name="q58" value="1"></td>
+    <td><input type="radio" name="q58" value="2"></td>
+    <td><input type="radio" name="q58" value="3"></td>
+    <td><input type="radio" name="q58" value="4"></td>
+  </tr>
+  <tr>
+    <td> PTCA  </td>
+    <td><input type="radio" name="q59" value="1"></td>
+    <td><input type="radio" name="q59" value="2"></td>
+    <td><input type="radio" name="q59" value="3"></td>
+    <td><input type="radio" name="q59" value="4"></td>
+  </tr>
+  <tr>
+    <td> Stent Implantation  </td>
+    <td><input type="radio" name="q60" value="1"></td>
+    <td><input type="radio" name="q60" value="2"></td>
+    <td><input type="radio" name="q60" value="3"></td>
+    <td><input type="radio" name="q60" value="4"></td>
+  </tr>
+  <tr>
+    <td> Rotational Coronary Atherectomy  </td>
+    <td><input type="radio" name="q61" value="1"></td>
+    <td><input type="radio" name="q61" value="2"></td>
+    <td><input type="radio" name="q61" value="3"></td>
+    <td><input type="radio" name="q61" value="4"></td>
+  </tr>
+  <tr>
+    <td> IVUS  </td>
+    <td><input type="radio" name="q62" value="1"></td>
+    <td><input type="radio" name="q62" value="2"></td>
+    <td><input type="radio" name="q62" value="3"></td>
+    <td><input type="radio" name="q62" value="4"></td>
+  </tr>
+  <tr>
+    <td> Intra-Aortic Balloon Pump  </td>
+    <td><input type="radio" name="q63" value="1"></td>
+    <td><input type="radio" name="q63" value="2"></td>
+    <td><input type="radio" name="q63" value="3"></td>
+    <td><input type="radio" name="q63" value="4"></td>
+  </tr>
+  <tr>
+    <td> Biopsy  </td>
+    <td><input type="radio" name="q64" value="1"></td>
+    <td><input type="radio" name="q64" value="2"></td>
+    <td><input type="radio" name="q64" value="3"></td>
+    <td><input type="radio" name="q64" value="4"></td>
+  </tr>
+  <tr>
+    <td> Closure Device (Per close, Angio Seal)  </td>
+    <td><input type="radio" name="q65" value="1"></td>
+    <td><input type="radio" name="q65" value="2"></td>
+    <td><input type="radio" name="q65" value="3"></td>
+    <td><input type="radio" name="q65" value="4"></td>
+  </tr>
+  <tr>
+    <td> DCA’s  </td>
+    <td><input type="radio" name="q66" value="1"></td>
+    <td><input type="radio" name="q66" value="2"></td>
+    <td><input type="radio" name="q66" value="3"></td>
+    <td><input type="radio" name="q66" value="4"></td>
+  </tr>
+  <tr>
+    <td> Temporary Pacemakers  </td>
+    <td><input type="radio" name="q67" value="1"></td>
+    <td><input type="radio" name="q67" value="2"></td>
+    <td><input type="radio" name="q67" value="3"></td>
+    <td><input type="radio" name="q67" value="4"></td>
+  </tr>
+  <tr>
+    <td> Angio Jet  </td>
+    <td><input type="radio" name="q68" value="1"></td>
+    <td><input type="radio" name="q68" value="2"></td>
+    <td><input type="radio" name="q68" value="3"></td>
+    <td><input type="radio" name="q68" value="4"></td>
+  </tr>
+  <tr>
+    <td> Arm Cases  </td>
+    <td><input type="radio" name="q69" value="1"></td>
+    <td><input type="radio" name="q69" value="2"></td>
+    <td><input type="radio" name="q69" value="3"></td>
+    <td><input type="radio" name="q69" value="4"></td>
+  </tr>
+  <tr>
+    <td> Exchange Sheaths  </td>
+    <td><input type="radio" name="q70" value="1"></td>
+    <td><input type="radio" name="q70" value="2"></td>
+    <td><input type="radio" name="q70" value="3"></td>
+    <td><input type="radio" name="q70" value="4"></td>
+  </tr>
+  <tr>
+    <td> Directional Coronary Atherectomy  </td>
+    <td><input type="radio" name="q71" value="1"></td>
+    <td><input type="radio" name="q71" value="2"></td>
+    <td><input type="radio" name="q71" value="3"></td>
+    <td><input type="radio" name="q71" value="4"></td>
+  </tr>
+  </table>
+  </div>
+  <div>
+    <p class="primary-color" style="border-bottom: 1px solid #696871;text-align: center">EQUIPMENT </p>
+    </div>
+  <div>
+    <p class="primary-color" style="border-bottom: 1px solid #696871;">CATH LAB/ ANGIO/ SPECIALS </p>
+    </div>
+    
+    <div>
+      <table style="width:100%">
+    <tr>
+      <th>questions</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+    </tr>
+    <tr>
+      <td> GE Advantx LC Mobile  </td>
+      <td><input type="radio" name="q72" value="1"></td>
+      <td><input type="radio" name="q72" value="2"></td>
+      <td><input type="radio" name="q72" value="3"></td>
+      <td><input type="radio" name="q72" value="4"></td>
+    </tr>
+    <tr>
+      <td> GE LUA Mobile  </td>
+      <td><input type="radio" name="q73" value="1"></td>
+      <td><input type="radio" name="q73" value="2"></td>
+      <td><input type="radio" name="q73" value="3"></td>
+      <td><input type="radio" name="q73" value="4"></td>
+    </tr>
+    <tr>
+      <td> GE LUA/C MobileGE LUA/EDEC  </td>
+      <td><input type="radio" name="q73" value="1"></td>
+      <td><input type="radio" name="q73" value="2"></td>
+      <td><input type="radio" name="q73" value="3"></td>
+      <td><input type="radio" name="q73" value="4"></td>
+    </tr>
+    <tr>
+      <td> Philips Integris H3000  </td>
+      <td><input type="radio" name="q74" value="1"></td>
+      <td><input type="radio" name="q74" value="2"></td>
+      <td><input type="radio" name="q74" value="3"></td>
+      <td><input type="radio" name="q74" value="4"></td>
+    </tr>
+    <tr>
+      <td> Philips Integris Mobile  </td>
+      <td><input type="radio" name="q75" value="1"></td>
+      <td><input type="radio" name="q75" value="2"></td>
+      <td><input type="radio" name="q75" value="3"></td>
+      <td><input type="radio" name="q75" value="4"></td>
+    </tr>
+    <tr>
+      <td> Philips Integris V3000  </td>
+      <td><input type="radio" name="q76" value="1"></td>
+      <td><input type="radio" name="q76" value="2"></td>
+      <td><input type="radio" name="q76" value="3"></td>
+      <td><input type="radio" name="q76" value="4"></td>
+    </tr>
+    <tr>
+      <td> Philips MD-3  </td>
+      <td><input type="radio" name="q77" value="1"></td>
+      <td><input type="radio" name="q77" value="2"></td>
+      <td><input type="radio" name="q77" value="3"></td>
+      <td><input type="radio" name="q77" value="4"></td>
+    </tr>
+    <tr>
+      <td> Philips Poly A Combo Mobile												  </td>
+      <td><input type="radio" name="q78" value="1"></td>
+      <td><input type="radio" name="q78" value="2"></td>
+      <td><input type="radio" name="q78" value="3"></td>
+      <td><input type="radio" name="q78" value="4"></td>
+    </tr>
+    <tr>
+      <td> Philips Poly A Mobile	  </td>
+      <td><input type="radio" name="q79" value="1"></td>
+      <td><input type="radio" name="q79" value="2"></td>
+      <td><input type="radio" name="q79" value="3"></td>
+      <td><input type="radio" name="q79" value="4"></td>
+    </tr>
+    <tr>
+      <td> Philips Poly C Mobile  </td>
+      <td><input type="radio" name="q80" value="1"></td>
+      <td><input type="radio" name="q80" value="2"></td>
+      <td><input type="radio" name="q80" value="3"></td>
+      <td><input type="radio" name="q80" value="4"></td>
+    </tr><tr>
+      <td> Philips Poly C2	  </td>
+      <td><input type="radio" name="q81" value="1"></td>
+      <td><input type="radio" name="q81" value="2"></td>
+      <td><input type="radio" name="q81" value="3"></td>
+      <td><input type="radio" name="q81" value="4"></td>
+    </tr>
+    <tr>
+      <td> Philips Poly C-2 Mobile	  </td>
+      <td><input type="radio" name="q82" value="1"></td>
+      <td><input type="radio" name="q82" value="2"></td>
+      <td><input type="radio" name="q82" value="3"></td>
+      <td><input type="radio" name="q82" value="4"></td>
+    </tr>
+    <tr>
+      <td> Philips Poly C-2 Modular  </td>
+      <td><input type="radio" name="q83" value="1"></td>
+      <td><input type="radio" name="q83" value="2"></td>
+      <td><input type="radio" name="q83" value="3"></td>
+      <td><input type="radio" name="q83" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens ACOM M/B	  </td>
+      <td><input type="radio" name="q84" value="1"></td>
+      <td><input type="radio" name="q84" value="2"></td>
+      <td><input type="radio" name="q84" value="3"></td>
+      <td><input type="radio" name="q84" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens Angioskop D  </td>
+      <td><input type="radio" name="q85" value="1"></td>
+      <td><input type="radio" name="q85" value="2"></td>
+      <td><input type="radio" name="q85" value="3"></td>
+      <td><input type="radio" name="q85" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens Angioskop D-2  </td>
+      <td><input type="radio" name="q86" value="1"></td>
+      <td><input type="radio" name="q86" value="2"></td>
+      <td><input type="radio" name="q86" value="3"></td>
+      <td><input type="radio" name="q86" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens Angiostar  </td>
+      <td><input type="radio" name="q87" value="1"></td>
+      <td><input type="radio" name="q87" value="2"></td>
+      <td><input type="radio" name="q87" value="3"></td>
+      <td><input type="radio" name="q87" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens Angiostar  </td>
+      <td><input type="radio" name="q88" value="1"></td>
+      <td><input type="radio" name="q88" value="2"></td>
+      <td><input type="radio" name="q88" value="3"></td>
+      <td><input type="radio" name="q88" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens Axiom Ars BC	  </td>
+      <td><input type="radio" name="q89" value="1"></td>
+      <td><input type="radio" name="q89" value="2"></td>
+      <td><input type="radio" name="q89" value="3"></td>
+      <td><input type="radio" name="q89" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens Axiom Ars FC	  </td>
+      <td><input type="radio" name="q90" value="1"></td>
+      <td><input type="radio" name="q90" value="2"></td>
+      <td><input type="radio" name="q90" value="3"></td>
+      <td><input type="radio" name="q90" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens Cathcor  </td>
+      <td><input type="radio" name="q91" value="1"></td>
+      <td><input type="radio" name="q91" value="2"></td>
+      <td><input type="radio" name="q91" value="3"></td>
+      <td><input type="radio" name="q91" value="4"></td>
+    </tr><tr>
+      <td> Siemens Coroskop C  </td>
+      <td><input type="radio" name="q92" value="1"></td>
+      <td><input type="radio" name="q92" value="2"></td>
+      <td><input type="radio" name="q92" value="3"></td>
+      <td><input type="radio" name="q92" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens Hicor 1.0/2.0  </td>
+      <td><input type="radio" name="q93" value="1"></td>
+      <td><input type="radio" name="q93" value="2"></td>
+      <td><input type="radio" name="q93" value="3"></td>
+      <td><input type="radio" name="q93" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens Infinity SC 7000	  </td>
+      <td><input type="radio" name="q94" value="1"></td>
+      <td><input type="radio" name="q94" value="2"></td>
+      <td><input type="radio" name="q94" value="3"></td>
+      <td><input type="radio" name="q94" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens Infinity SC 8000  </td>
+      <td><input type="radio" name="q95" value="1"></td>
+      <td><input type="radio" name="q95" value="2"></td>
+      <td><input type="radio" name="q95" value="3"></td>
+      <td><input type="radio" name="q95" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens Infinity SC 9000XL  </td>
+      <td><input type="radio" name="q96" value="1"></td>
+      <td><input type="radio" name="q96" value="2"></td>
+      <td><input type="radio" name="q96" value="3"></td>
+      <td><input type="radio" name="q96" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens PolyStar	  </td>
+      <td><input type="radio" name="q97" value="1"></td>
+      <td><input type="radio" name="q97" value="2"></td>
+      <td><input type="radio" name="q97" value="3"></td>
+      <td><input type="radio" name="q97" value="4"></td>
+    </tr>
+    <tr>
+      <td> Siemens Power Mobil	  </td>
+      <td><input type="radio" name="q98" value="1"></td>
+      <td><input type="radio" name="q98" value="2"></td>
+      <td><input type="radio" name="q98" value="3"></td>
+      <td><input type="radio" name="q98" value="4"></td>
+    </tr>
+    <tr>
+      <td> Toshiba Angiorex Modular  </td>
+      <td><input type="radio" name="q99" value="1"></td>
+      <td><input type="radio" name="q99" value="2"></td>
+      <td><input type="radio" name="q99" value="3"></td>
+      <td><input type="radio" name="q99" value="4"></td>
+    </tr>
+    <tr>
+      <td> Toshiba Infinix VC-I  </td>
+      <td><input type="radio" name="q100" value="1"></td>
+      <td><input type="radio" name="q100" value="2"></td>
+      <td><input type="radio" name="q100" value="3"></td>
+      <td><input type="radio" name="q100" value="4"></td>
+    </tr>
+    <tr>
+      <td> Toshiba KXO-200A  </td>
+      <td><input type="radio" name="q101" value="1"></td>
+      <td><input type="radio" name="q101" value="2"></td>
+      <td><input type="radio" name="q101" value="3"></td>
+      <td><input type="radio" name="q101" value="4"></td>
+    </tr>
+    <tr>
+      <td> Toshiba KXO-80-CD Mobile  </td>
+      <td><input type="radio" name="q102" value="1"></td>
+      <td><input type="radio" name="q102" value="2"></td>
+      <td><input type="radio" name="q102" value="3"></td>
+      <td><input type="radio" name="q102" value="4"></td>
+    </tr><tr>
+      <td> Toshiba Super G	  </td>
+      <td><input type="radio" name="q103" value="1"></td>
+      <td><input type="radio" name="q103" value="2"></td>
+      <td><input type="radio" name="q103" value="3"></td>
+      <td><input type="radio" name="q103" value="4"></td>
+    </tr>
+    </table>
+    </div>
+
+    <div>
+      <p class="primary-color" style="border-bottom: 1px solid #696871;">RADIOLOGY/ FLUOROSCOPY </p>
+      </div>
+      
+      <div>
+        <table style="width:100%">
+      <tr>
+        <th>questions</th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+      </tr>
+      <tr>
+        <td> GE Prestige  </td>
+        <td><input type="radio" name="q104" value="1"></td>
+        <td><input type="radio" name="q104" value="2"></td>
+        <td><input type="radio" name="q104" value="3"></td>
+        <td><input type="radio" name="q104" value="4"></td>
+      </tr>
+      <tr>
+        <td> GE Prestilix 1690  </td>
+        <td><input type="radio" name="q105" value="1"></td>
+        <td><input type="radio" name="q105" value="2"></td>
+        <td><input type="radio" name="q105" value="3"></td>
+        <td><input type="radio" name="q105" value="4"></td>
+      </tr>
+      <tr>
+        <td> GE RFX  </td>
+        <td><input type="radio" name="q106" value="1"></td>
+        <td><input type="radio" name="q106" value="2"></td>
+        <td><input type="radio" name="q106" value="3"></td>
+        <td><input type="radio" name="q106" value="4"></td>
+      </tr>
+      <tr>
+        <td> GE SFX-II  </td>
+        <td><input type="radio" name="q107" value="1"></td>
+        <td><input type="radio" name="q107" value="2"></td>
+        <td><input type="radio" name="q107" value="3"></td>
+        <td><input type="radio" name="q107" value="4"></td>
+      </tr>
+      <tr>
+        <td> Litho Gall Bladder  </td>
+        <td><input type="radio" name="q108" value="1"></td>
+        <td><input type="radio" name="q108" value="2"></td>
+        <td><input type="radio" name="q108" value="3"></td>
+        <td><input type="radio" name="q108" value="4"></td>
+      </tr>
+      <tr>
+        <td> Litho Kidney  </td>
+        <td><input type="radio" name="q109" value="1"></td>
+        <td><input type="radio" name="q109" value="2"></td>
+        <td><input type="radio" name="q109" value="3"></td>
+        <td><input type="radio" name="q109" value="4"></td>
+      </tr>
+      <tr>
+        <td> Philips Diagnost 92  </td>
+        <td><input type="radio" name="q110" value="1"></td>
+        <td><input type="radio" name="q110" value="2"></td>
+        <td><input type="radio" name="q110" value="3"></td>
+        <td><input type="radio" name="q110" value="4"></td>
+      </tr>
+      <tr>
+        <td> Picker Clinix R/F  </td>
+        <td><input type="radio" name="q111" value="1"></td>
+        <td><input type="radio" name="q111" value="2"></td>
+        <td><input type="radio" name="q111" value="3"></td>
+        <td><input type="radio" name="q111" value="4"></td>
+      </tr>
+      <tr>
+        <td> Picker Vector 100  </td>
+        <td><input type="radio" name="q112" value="1"></td>
+        <td><input type="radio" name="q112" value="2"></td>
+        <td><input type="radio" name="q112" value="3"></td>
+        <td><input type="radio" name="q112" value="4"></td>
+      </tr>
+      <tr>
+        <td> Siemens Pantoskop 5 ML  </td>
+        <td><input type="radio" name="q113" value="1"></td>
+        <td><input type="radio" name="q113" value="2"></td>
+        <td><input type="radio" name="q113" value="3"></td>
+        <td><input type="radio" name="q113" value="4"></td>
+      </tr>
+      <tr>
+        <td> Siemens Sireskop 30  </td>
+        <td><input type="radio" name="q114" value="1"></td>
+        <td><input type="radio" name="q114" value="2"></td>
+        <td><input type="radio" name="q114" value="3"></td>
+        <td><input type="radio" name="q114" value="4"></td>
+      </tr>
+      <tr>
+        <td> Siemens Sireskop 4  </td>
+        <td><input type="radio" name="q115" value="1"></td>
+        <td><input type="radio" name="q115" value="2"></td>
+        <td><input type="radio" name="q115" value="3"></td>
+        <td><input type="radio" name="q115" value="4"></td>
+      </tr>
+      <tr>
+        <td> Siemens Sireskop SX  </td>
+        <td><input type="radio" name="q116" value="1"></td>
+        <td><input type="radio" name="q116" value="2"></td>
+        <td><input type="radio" name="q116" value="3"></td>
+        <td><input type="radio" name="q116" value="4"></td>
+      </tr>
+      <tr>
+        <td> Toshiba EPS- Plus  </td>
+        <td><input type="radio" name="q117" value="1"></td>
+        <td><input type="radio" name="q117" value="2"></td>
+        <td><input type="radio" name="q117" value="3"></td>
+        <td><input type="radio" name="q117" value="4"></td>
+      </tr>
+      <tr>
+        <td> Toshiba KXO- 850  </td>
+        <td><input type="radio" name="q118" value="1"></td>
+        <td><input type="radio" name="q118" value="2"></td>
+        <td><input type="radio" name="q118" value="3"></td>
+        <td><input type="radio" name="q118" value="4"></td>
+      </tr>
+      <tr>
+        <td> Toshiba Tosrad  </td>
+        <td><input type="radio" name="q119" value="1"></td>
+        <td><input type="radio" name="q119" value="2"></td>
+        <td><input type="radio" name="q119" value="3"></td>
+        <td><input type="radio" name="q119" value="4"></td>
+      </tr>
+      <tr>
+        <td> Toshiba Ultimax  </td>
+        <td><input type="radio" name="q120" value="1"></td>
+        <td><input type="radio" name="q120" value="2"></td>
+        <td><input type="radio" name="q120" value="3"></td>
+        <td><input type="radio" name="q120" value="4"></td>
+      </tr>
+      <tr>
+        <td> Atak R/F Ablation IABP  </td>
+        <td><input type="radio" name="q121" value="1"></td>
+        <td><input type="radio" name="q121" value="2"></td>
+        <td><input type="radio" name="q121" value="3"></td>
+        <td><input type="radio" name="q121" value="4"></td>
+      </tr>
+      <tr>
+        <td> Daylight System  </td>
+        <td><input type="radio" name="q122" value="1"></td>
+        <td><input type="radio" name="q122" value="2"></td>
+        <td><input type="radio" name="q122" value="3"></td>
+        <td><input type="radio" name="q122" value="4"></td>
+      </tr>
+      <tr>
+        <td> Digatech  </td>
+        <td><input type="radio" name="q123" value="1"></td>
+        <td><input type="radio" name="q123" value="2"></td>
+        <td><input type="radio" name="q123" value="3"></td>
+        <td><input type="radio" name="q123" value="4"></td>
+      </tr>
+      <tr>
+        <td> GE Advantx  </td>
+        <td><input type="radio" name="q124" value="1"></td>
+        <td><input type="radio" name="q124" value="2"></td>
+        <td><input type="radio" name="q124" value="3"></td>
+        <td><input type="radio" name="q124" value="4"></td>
+      </tr>
+      <tr>
+        <td> GE Advantx 80 LFX  </td>
+        <td><input type="radio" name="q125" value="1"></td>
+        <td><input type="radio" name="q125" value="2"></td>
+        <td><input type="radio" name="q125" value="3"></td>
+        <td><input type="radio" name="q125" value="4"></td>
+      </tr>
+      </table>
+      </div>
+
+      <div>
+        <p class="primary-color" style="border-bottom: 1px solid #696871;">HEMODYNAMIC MONITORING EQUIP </p>
+        </div>
+        
+        <div>
+          <table style="width:100%">
+        <tr>
+          <th>questions</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
+        </tr>
+        <tr>
+          <td> Hewlett Packard  </td>
+          <td><input type="radio" name="q126" value="1"></td>
+          <td><input type="radio" name="q126" value="2"></td>
+          <td><input type="radio" name="q126" value="3"></td>
+          <td><input type="radio" name="q126" value="4"></td>
+        </tr>
+        <tr>
+          <td> Life care  </td>
+          <td><input type="radio" name="q127" value="1"></td>
+          <td><input type="radio" name="q127" value="2"></td>
+          <td><input type="radio" name="q127" value="3"></td>
+          <td><input type="radio" name="q127" value="4"></td>
+        </tr>
+        <tr>
+          <td> Marquee  </td>
+          <td><input type="radio" name="q128" value="1"></td>
+          <td><input type="radio" name="q128" value="2"></td>
+          <td><input type="radio" name="q128" value="3"></td>
+          <td><input type="radio" name="q128" value="4"></td>
+        </tr>
+        <tr>
+          <td> Mennen  </td>
+          <td><input type="radio" name="q129" value="1"></td>
+          <td><input type="radio" name="q129" value="2"></td>
+          <td><input type="radio" name="q129" value="3"></td>
+          <td><input type="radio" name="q129" value="4"></td>
+        </tr>
+        <tr>
+          <td> Nihon Koder  </td>
+          <td><input type="radio" name="q130" value="1"></td>
+          <td><input type="radio" name="q130" value="2"></td>
+          <td><input type="radio" name="q130" value="3"></td>
+          <td><input type="radio" name="q130" value="4"></td>
+        </tr>
+        <tr>
+          <td> Philips  </td>
+          <td><input type="radio" name="q131" value="1"></td>
+          <td><input type="radio" name="q131" value="2"></td>
+          <td><input type="radio" name="q131" value="3"></td>
+          <td><input type="radio" name="q131" value="4"></td>
+        </tr>
+        <tr>
+          <td> Siemens  </td>
+          <td><input type="radio" name="q132" value="1"></td>
+          <td><input type="radio" name="q132" value="2"></td>
+          <td><input type="radio" name="q132" value="3"></td>
+          <td><input type="radio" name="q132" value="4"></td>
+        </tr>
+        <tr>
+          <td> Spacelab  </td>
+          <td><input type="radio" name="q133" value="1"></td>
+          <td><input type="radio" name="q133" value="2"></td>
+          <td><input type="radio" name="q133" value="3"></td>
+          <td><input type="radio" name="q133" value="4"></td>
+        </tr>
+        <tr>
+          <td> Wi  </td>
+          <td><input type="radio" name="q134" value="1"></td>
+          <td><input type="radio" name="q134" value="2"></td>
+          <td><input type="radio" name="q134" value="3"></td>
+          <td><input type="radio" name="q134" value="4"></td>
+        </tr>
+        </table>
+        </div>
+
+        <div>
+          <p class="primary-color" style="border-bottom: 1px solid #696871;">Age Specific Competencies </p>
+          </div>
+          
+          <div>
+            <table style="width:100%">
+          <tr>
+            <th>questions</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+          </tr>
+          <tr>
+            <td> Infant (Birth - 1 year)  </td>
+            <td><input type="radio" name="q135" value="1"></td>
+            <td><input type="radio" name="q135" value="2"></td>
+            <td><input type="radio" name="q135" value="3"></td>
+            <td><input type="radio" name="q135" value="4"></td>
+          </tr>
+          <tr>
+            <td> Preschooler (ages 2-5 years)  </td>
+            <td><input type="radio" name="q136" value="1"></td>
+            <td><input type="radio" name="q136" value="2"></td>
+            <td><input type="radio" name="q136" value="3"></td>
+            <td><input type="radio" name="q136" value="4"></td>
+          </tr>
+          <tr>
+            <td> Childhood (ages 6-12 years)  </td>
+            <td><input type="radio" name="q137" value="1"></td>
+            <td><input type="radio" name="q137" value="2"></td>
+            <td><input type="radio" name="q137" value="3"></td>
+            <td><input type="radio" name="q137" value="4"></td>
+          </tr>
+          <tr>
+            <td> Adolescents (ages 13-21 years)  </td>
+            <td><input type="radio" name="q138" value="1"></td>
+            <td><input type="radio" name="q138" value="2"></td>
+            <td><input type="radio" name="q138" value="3"></td>
+            <td><input type="radio" name="q138" value="4"></td>
+          </tr>
+          <tr>
+            <td> Young Adults (ages 22-39 years)  </td>
+            <td><input type="radio" name="q139" value="1"></td>
+            <td><input type="radio" name="q139" value="2"></td>
+            <td><input type="radio" name="q139" value="3"></td>
+            <td><input type="radio" name="q139" value="4"></td>
+          </tr>
+          <tr>
+            <td> Adults (ages 40-64 years)  </td>
+            <td><input type="radio" name="q140" value="1"></td>
+            <td><input type="radio" name="q140" value="2"></td>
+            <td><input type="radio" name="q140" value="3"></td>
+            <td><input type="radio" name="q140" value="4"></td>
+          </tr>
+          <tr>
+            <td> Older Adults (ages 65-79 years)  </td>
+            <td><input type="radio" name="q141" value="1"></td>
+            <td><input type="radio" name="q141" value="2"></td>
+            <td><input type="radio" name="q141" value="3"></td>
+            <td><input type="radio" name="q141" value="4"></td>
+          </tr>
+          <tr>
+            <td> Elderly (ages 80+ years)  </td>
+            <td><input type="radio" name="q142" value="1"></td>
+            <td><input type="radio" name="q142" value="2"></td>
+            <td><input type="radio" name="q142" value="3"></td>
+            <td><input type="radio" name="q142" value="4"></td>
+          </tr>
+          </table>
+          </div>
+
+
+
+
+</form>
+
+</body>
+</html>
